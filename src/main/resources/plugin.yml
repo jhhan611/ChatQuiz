@@ -1,0 +1,15 @@
+name: ChatQuiz
+main: com.github.jhhan611.quiz.Plugin
+version: 1.0.0
+depend: [Vault, Essentials]
+api-version: 1.17
+
+commands:
+  quiz:
+    permission: quiz.command
+
+permissions:
+  quiz.command:
+    default: true
+  quiz.delete:
+    default: op
